@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>RequiredEmailFieldError</fullName>
+        <categories>Community</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required field error for username field on the login form</shortDescription>
+        <value>Please enter your email address.</value>
+    </labels>
+    <labels>
+        <fullName>RequiredPasswordFieldError</fullName>
+        <categories>Community</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Required field error for password field on the login form</shortDescription>
+        <value>Please enter your password.</value>
+    </labels>
+    <labels>
+        <fullName>UsernameFormatError</fullName>
+        <categories>Community</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Required field Registration form error</shortDescription>
+        <value>Your username must contain @ and a period.</value>
+    </labels>
+    <labels>
+        <fullName>RequiredFieldError</fullName>
+        <categories>Community</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Required field is misssing validation error</shortDescription>
+        <value>This is a required field.</value>
+    </labels>
+    <labels>
+        <fullName>CharacterLimitError</fullName>
+        <categories>Community</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Registration form validation error</shortDescription>
+        <value>Must be 50 Characters or Less.</value>
+    </labels>
+    <labels>
+        <fullName>EmailFormatError</fullName>
+        <categories>Community</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Required field Registration form error</shortDescription>
+        <value>Your email must contain @ and a period.</value>
+    </labels>
+    <labels>
+        <fullName>EmailMismatchError</fullName>
+        <categories>Community</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Required field Registration form error</shortDescription>
+        <value>Please re-enter your email to ensure both entries match.</value>
+    </labels>
+    <labels>
+        <fullName>PasswordFormatError</fullName>
+        <categories>Community</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Required field Registration form error</shortDescription>
+        <value>Password must contain 8–12 characters, including 1 uppercase letter and 1 number.</value>
+    </labels>
+    <labels>
+        <fullName>PasswordMismatchError</fullName>
+        <categories>Community</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please re-enter your password to ensure both entries match.</shortDescription>
+        <value>Please re-enter your password to ensure both entries match.</value>
+    </labels>
+    <labels>
+        <fullName>StreetMissingError</fullName>
+        <categories>Community</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Street missing error label</shortDescription>
+        <value>Please enter your street address.</value>
+    </labels>
+    <labels>
+        <fullName>CityMissingError</fullName>
+        <categories>Community</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>City missing error label</shortDescription>
+        <value>Please enter your city.</value>
+    </labels>
+    <labels>
+        <fullName>ProvinceMissingError</fullName>
+        <categories>Community</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Province missing error label</shortDescription>
+        <value>Please select your province.</value>
+    </labels>
+    <labels>
+        <fullName>InvalidPostalCodeError</fullName>
+        <categories>Community</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Postal Code missing error label</shortDescription>
+        <value>Please enter a valid postal code.</value>
+    </labels>
+</CustomLabels>

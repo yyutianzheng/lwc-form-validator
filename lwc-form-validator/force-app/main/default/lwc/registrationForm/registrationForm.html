@@ -1,0 +1,53 @@
+<template>
+    <div class="container">
+        <form class="form" onsubmit={handleSubmit}>
+            <div class="firstName-container">
+                <div class="label-message">
+                    <label>First Name</label>
+                </div>
+                <div class="input">
+                    <input type="text" class="validation-field" name="firstname" value={user.firstName}
+                        onkeyup={handleOnKeyUp}/>
+                </div>
+            </div>
+            <div class="lastName-container">
+                <div class="label-message">
+                    <label>Last Name</label>
+                </div>
+                <div class="input">
+                    <input type="text" class="validation-field" name="lastName" value={user.lastName}
+                        onkeyup={handleOnKeyUp}/>
+                </div>
+            </div>
+            <div class="email-container">
+                <div class="label-message">
+                    <label>Email</label>
+                </div>
+                <div class="input">
+                    <input type="text" class="validation-field" name="email" value={user.email}
+                        onkeyup={handleOnKeyUp}/>
+                </div>
+            </div>
+            <div class="password-container">
+                <div class="label-message">
+                    <label>Password</label>
+                </div>
+                <div class="input">
+                    <input type="password" class="validation-field" name="password" value={user.password}
+                        onkeyup={handleOnKeyUp}/>
+                </div>
+            </div>
+            <div class="confirmedPassword-container">
+                <div class="label-message">
+                    <label>Confirm Password</label>
+                </div>
+                <div class="input">
+                    <input type="password" class="validation-field" name="confirmedPassword"
+                        value={user.confirmedPassword}
+                        onkeyup={handleOnKeyUp}/>
+                </div>
+            </div>
+            <lightning-button label="Register" type="submit" class="slds-align_absolute-center"></lightning-button>
+        </form>
+    </div>
+</template>
